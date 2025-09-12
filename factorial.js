@@ -71,7 +71,15 @@ function backToMenu(){
    rl.question("What would you like to do next? (1-2) ", (backToMenuChoice)=>{
 
 
-    
+    if(backToMenuChoice==="1"){
+        console.clear();
+        mainMenu();
+    }else if (backToMenuChoice==="2"){
+        exitProgram();
+    }else {
+        console.log("Invalid choice. Please Try Again!");
+        mainMenu();
+    }
    })
 }
 
