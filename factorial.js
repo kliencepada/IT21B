@@ -57,3 +57,8 @@ function computeFactorial(){
         })
 }
 
+function exitProgram(){
+        console.log("Exiting Application");
+        rl.close();
+        console.clear();
+}
