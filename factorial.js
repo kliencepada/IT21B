@@ -62,3 +62,17 @@ function exitProgram(){
         rl.close();
         console.clear();
 }
+
+function backToMenu(){
+   console.log("-------------------------");
+   console.log("1. Back To Menu ");
+   console.log("2. Exit ");
+
+   rl.question("What would you like to do next? (1-2) ", (backToMenuChoice)=>{
+
+
+    
+   })
+}
+
+mainMenu();
