@@ -16,5 +16,16 @@ function mainMenu(){
 rl.question("Enter your Choice (1-3): ", choice =>{
     console.log(choice);
 
+    if (choice === "1"){
+       sayHello();
+       
+    } else if (choice === "2"){
+        computeFactorial();
+
+    } else if (choice === "3"){
+       exitProgram();
+    } else {
+        console.log("Invalid Choice. Please Try Again");
+    }
 })
 }
