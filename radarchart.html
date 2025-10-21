@@ -65,6 +65,11 @@
             }
     }
 
+    async init() {
+    const data = await this.fetchData();
+    if (data) this.renderChart(data);
+}
+
 
 </script>
 </html>
